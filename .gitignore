@@ -1,0 +1,8 @@
+## Dependencies
+/node_modules
+
+# Ignore .idea files
+.idea
+
+# Build
+/dist

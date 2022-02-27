@@ -1,0 +1,30 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "array-type": false,
+    "indent": [true, "spaces"],
+    "interface-over-type-literal": false,
+    "max-classes-per-file": [true, 1, "exclude-class-expressions"],
+    "member-access": [true, "no-public"],
+    "object-literal-key-quotes": [true, "as-needed"],
+    "object-literal-sort-keys": false,
+    "ordered-imports": true,
+    "quotemark": [true, "single", "jsx-double"],
+    "semicolon": [true, "always", "ignore-bound-class-methods"],
+    "whitespace": [
+    true,
+    "check-branch",
+    "check-decl",
+    "check-operator",
+    "check-module",
+    "check-separator",
+    "check-rest-spread",
+    "check-type",
+    "check-typecast",
+    "check-type-operator",
+    "check-preblock"
+    ]
+  },
+  "jsRules": true
+}
+  

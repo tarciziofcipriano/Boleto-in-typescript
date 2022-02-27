@@ -1,0 +1,58 @@
+{
+  "name": "boleto-in-typescript",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tarciziofcipriano/Boleto-in-typescript.git"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -c tslint.json \"src/**/*.ts?(x)\"",
+    "storybook": "start-storybook -p 9001",
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/test/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "moduleNameMapper": {
+      "\\.css$": "identity-obj-proxy"
+    },
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "devDependencies": {
+    "@storybook/addon-storyshots": "6.1.15",
+    "@storybook/react": "6.1.15",
+    "@types/jest": "26.0.20",
+    "@types/node": "14.14.22",
+    "@types/react": "17.0.0",
+    "@types/react-dom": "17.0.0",
+    "jest": "26.6.3",
+    "ts-jest": "26.4.4",
+    "ts-node": "9.1.1",
+    "tslint": "6.1.3",
+    "typescript": "4.1.3"
+  },
+  "dependencies": {
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-intl": "5.10.19"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
